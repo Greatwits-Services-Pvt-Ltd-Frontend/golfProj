@@ -1,0 +1,542 @@
+@media only screen and (min-width: 1300px){
+
+    
+    .header_container{
+        .top_header{
+            background-color:#f5f5f5;
+            padding:0.5% 0%;
+            font-size: small;
+            .currency{
+                b{
+                    color: rgb(7, 134, 7);
+                }
+            }
+            .cart{
+                float: right;
+                margin-right: 2%;
+            }
+            .user_Account{
+                float: right;
+                margin-right: 4%;
+            }
+            
+        }
+        .header_with_logo{
+            display: flex;
+            margin-bottom: 7%;
+            .search_bar{
+                width: 100%;
+                .search{
+                    margin: 10% 0% 10% 5%;
+                    .search_input{
+                        width: 63%;
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        outline: none;
+                        background-color: #f5f5f5;
+                        font-size: 110%;
+                        margin-right: 2%;
+                        border-radius: 4px;
+                    }
+                    .search_button{
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        font-size: 110%;
+                        border-radius: 4px;
+                    }
+                }
+            }
+            .logo_container{
+                width: 100%;
+                .logo{
+                    .logo_image{
+                        margin-top: 4%;
+                        width: 40%;
+                    }
+                    .slogan{
+                        margin-left:10%;
+                    }
+                }
+            }
+            .trustPilot_header{
+                margin-top: 2%;
+                .trustPilot_header_image{
+                    width: 30%;
+                }
+                .trustPilot_header_ratings{
+                    color: green; 
+                    font-size: 250%;
+                }
+                .reviews{
+                    color: grey;
+                    font-size: small;
+                    padding-left:10% ;
+                }
+            }
+        }
+
+
+
+
+
+        .detailed_header{
+
+            .header_detail{
+                border:solid 1px rgb(194, 184, 184);
+                padding: 2% 20% 0% 20%;
+                font-size: small;
+                
+            }
+            .header_detail p{
+                color: rgb(194, 184, 184);
+            }
+        }
+        
+        .nav_bar{
+            .show{
+                display: block;
+            }
+            margin-top: 1%;
+            background-color: #f5f5f5;
+            .categories{
+                border-right: rgb(199, 196, 196) 1px solid;
+                button{
+                    outline: none;
+                    border: none;
+                }
+                
+            }
+            .categories i{
+                color: green;
+            }
+            .categories ul li{
+                float: left;
+                list-style-type:none;
+            }
+            .btn{
+                background-color: maroon;
+                button{
+                    background-color: maroon;
+                    color: white;
+                    outline: none;
+                    border: none;
+                }
+            }
+            
+        }
+        .depart_list{
+            background-color: rgb(189, 185, 185);
+            display: none;
+            .dep_list_item{
+                .dep_image{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+
+        .brand_list{
+            display: none;
+            overflow: scroll;
+            background-color:  rgb(189, 185, 185);
+            height: 500px;
+            color: black;
+            .image_table_of_brandlist{
+                float: left;
+                margin:5% 5% 0% 10%;
+                td{
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 5%;
+                }
+                
+            }
+            
+            ul{
+                list-style-type: none;
+
+            }
+            li{
+                margin: 0% 20%;
+            }
+            .brands_table{
+                margin: 0% 10% 2% 20%;
+                // td{
+                //     margin-top: 0%;
+                //     padding-top: 0%;
+                // }
+            }
+        }
+
+        .help_list{
+            display: none;
+            position: absolute;
+            background-color: rgb(192, 189, 189);
+            width: 300px;
+            left: 675px;
+            ul{
+            list-style-type: none;
+            }
+        }
+
+        .hole_list{
+            display: none;
+            position: absolute;
+            background-color: rgb(192, 189, 189);
+            width: 300px;
+            left: 808px;
+            ul{
+            list-style-type: none;
+            }
+        }
+          
+    }
+}
+
+.display{
+    display: block !important;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1300px)and(min-width:800px){
+
+    .header_container{
+        .top_header{
+            background-color:#f5f5f5;
+            padding:0.5% 0%;
+            font-size: small;
+            .currency{
+                b{
+                    color: rgb(7, 134, 7);
+                }
+            }
+            .cart{
+                float: right;
+                margin-right: 2%;
+            }
+            .user_Account{
+                float: right;
+                margin-right: 4%;
+            }
+            
+        }
+        .header_with_logo{
+            display: flex;
+            margin-bottom: 7%;
+            .search_bar{
+                width: 100%;
+                .search{
+                    margin: 10% 0% 10% 5%;
+                    .search_input{
+                        width: 63%;
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        outline: none;
+                        background-color: #f5f5f5;
+                        font-size: 110%;
+                        margin-right: 2%;
+                        border-radius: 4px;
+                    }
+                    .search_button{
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        font-size: 110%;
+                        border-radius: 4px;
+                    }
+                }
+            }
+            .logo_container{
+                width: 100%;
+                .logo{
+                    .logo_image{
+                        margin-top: 4%;
+                        width: 60%;
+                    }
+                    .slogan{
+                        margin-left:18%;
+                        font-size: small;
+                    }
+                }
+            }
+            .trustPilot_header{
+                margin-top: 2%;
+                .trustPilot_header_image{
+                    width: 30%;
+                }
+                .trustPilot_header_ratings{
+                    color: green; 
+                    font-size: 250%;
+                }
+                .reviews{
+                    color: grey;
+                    font-size: small;
+                    padding-left:10% ;
+                }
+            }
+            .nav_bar{
+                margin-top: 1%;
+                background-color: #f5f5f5;
+                .help{
+                    position: relative;
+                }
+                .categories{
+                    border-right: rgb(199, 196, 196) 1px solid;
+                }
+                .categories i{
+                    color: green;
+                }
+                .btn{
+                    background-color: maroon;
+                    button{
+                        background-color: maroon;
+                        color: white;
+                        outline: none;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
+@media only screen and (max-width: 800px) and (min-width:300px) {
+    .header_container{
+        .top_header{
+            background-color:#f5f5f5;
+            padding:0.5% 0%;
+            font-size: small;
+            .currency{
+                b{
+                    color: rgb(7, 134, 7);
+                }
+            }
+            .cart{
+                float: right;
+                margin-right: 2%;
+            }
+            .user_Account{
+                float: right;
+                margin-right: 4%;
+            }
+            
+        }
+
+
+        .header_with_logo{
+            margin-bottom: 7%;
+            .search_bar{
+                width: 100%;
+                .search{
+                    margin: 10% 0% 3% 15%;
+                    .search_input{
+                        width: 65%;
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        outline: none;
+                        background-color: #f5f5f5;
+                        font-size: 110%;
+                        margin-right: 2%;
+                        border-radius: 4px;
+                    }
+                    .search_button{
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        font-size: 110%;
+                        border-radius: 4px;
+                    }
+                }
+            }
+            .logo_container{
+                width: 100%;
+                .logo{
+                    .logo_image{
+                        margin: 0% 30% 0% 30%;
+                        width: 40%;
+                    }
+                    .slogan{
+                        margin: 1% 40%;
+                    }
+                }
+            }
+            .trustPilot_header{
+                margin: 0% 40%;
+                .trustPilot_header_image{
+                    width: 10%;
+                }
+                .trustPilot_header_ratings{
+                    color: green; 
+                    font-size: 150%;
+                }
+                .reviews{
+                    color: grey;
+                    font-size: x-small;
+                    padding-left:40%;
+                }
+            }
+        }
+        
+        
+            .header_detail{
+                border:solid 1px rgb(199, 193, 193);
+                padding: 3% 15%;
+                flex-direction: column;
+                width: 100%;
+            }
+
+          
+          .header_detail span{
+              color: rgb(199, 196, 196);
+          }
+          .nav_bar{
+            margin-top: 1%;
+            background-color: #f5f5f5;
+            .categories{
+                border-right: rgb(199, 196, 196) 1px solid;
+            }
+            .categories i{
+                color: green;
+            }
+            .btn{
+                background-color: maroon;
+                button{
+                    background-color: maroon;
+                    color: white;
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+
+
+
+
+    }
+
+
+    
+  }
+
+
+
+
+  @media only screen and (max-width: 300px){
+    .header_container{
+        .top_header{
+            background-color:#f5f5f5;
+            padding:0.5% 0%;
+            font-size: small;
+            .currency{
+                float: left;
+                width: 100%;
+                background-color:#f5f5f5;
+                b{
+                    color: rgb(7, 134, 7);
+                }
+            }
+            .cart{
+                float: left;
+                width: 100%;
+                margin-right: 2%;
+                background-color:#f5f5f5;
+            }
+            .user_Account{
+                width: 100%;
+                float: left;
+                margin-right: 4%;
+                background-color:#f5f5f5;
+            }
+            
+        }
+
+
+        .header_with_logo{
+            margin-bottom: 7%;
+            .search_bar{
+                width: 100%;
+                .search{
+                    margin: 10% 0% 3% 15%;
+                    .search_input{
+                        margin-top: 2%;
+                        width: 65%;
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        outline: none;
+                        background-color: #f5f5f5;
+                        font-size: 110%;
+                        margin-right: 2%;
+                        border-radius: 4px;
+                    }
+                    .search_button{
+                        padding: 1%;
+                        border: solid 1px #ddd4d4;
+                        font-size: 110%;
+                        border-radius: 4px;
+                    }
+                }
+            }
+            .logo_container{
+                width: 100%;
+                .logo{
+                    .logo_image{
+                        margin: 0% 30% 0% 30%;
+                        width: 40%;
+                    }
+                    .slogan{
+                        margin: 1% 20% 0% 30%;
+                    }
+                }
+            }
+            .trustPilot_header{
+                margin: 0% 40%;
+                .trustPilot_header_image{
+                    width: 10%;
+                }
+                .trustPilot_header_ratings{
+                    color: green; 
+                    font-size: 150%;
+                }
+                .reviews{
+                    color: grey;
+                    font-size: x-small;
+                    padding-left: 30%;
+                }
+            }
+        }
+
+
+
+
+
+        .nav_bar{
+            margin-top: 1%;
+            background-color: #f5f5f5;
+            .categories{
+                border-right: rgb(199, 196, 196) 1px solid;
+            }
+            .categories i{
+                color: green;
+            }
+            .btn{
+                background-color: maroon;
+                button{
+                    background-color: maroon;
+                    color: white;
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+    }
+
+
+
+  }
+
+
+
+

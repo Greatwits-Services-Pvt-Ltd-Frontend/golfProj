@@ -1,0 +1,424 @@
+<div class="header_container">
+    <!-- ------------------------------     TOP HEADER       ---------------------------------- -->
+    <div class="top_header">
+        <mat-toolbar-row>
+        <span class="currency"><b>UK</b>
+            .
+            Currency:<b>£</b></span>
+        <span class="user_Account"><i class="fas fa-user"></i>Account</span>
+        <span class="top_header_mid_space"></span>
+        <span class="cart"><i class="fas fa-shopping-cart"></i>Bag (0: £0)</span>
+    </mat-toolbar-row>
+</div>
+
+<!-- ------------------------   HEADER WITH DETAIL         ------------------------------------- -->
+    <mat-toolbar-row class="header_with_logo">
+        <span class="search_bar">
+            <div class="search">
+                <input class="search_input" type="text" placeholder="Search GolfOnline ...">
+                <span><button class="search_button"><i class="fas fa-search"></i></button></span>
+            </div>
+        </span>
+        <span class="logo_container">
+            <div class="logo">
+                <img class="logo_image" src="../../../assets/golfonline_logo.jpg" alt="" srcset="">
+                <p class="slogan">Going that Extra Yard!</p>
+            </div>
+        </span>
+        <span class="trustPilot_header">
+            <span class="trustPilot_header_ratings">★</span>
+            <img class="trustPilot_header_image" src="../../../assets/trustpilot-vector-logo.jpg" alt="trustpilot_logo" srcset="">
+            <span class="trustPilot_header_ratings">⋆⋆⋆⋆⋆</span>
+            <p class="reviews">Based on over 22,002 Reviews</p>
+        </span>
+    </mat-toolbar-row>
+
+    <!-- ---------------------------- HEADER DETAILS -------------------------------- -->
+    <div class="detailed_header">
+    <mat-grid-list cols="4" rowHeight="4:1">
+        <mat-grid-tile>
+            <div class="header_detail free_shipping">
+                <i class="fas fa-truck"></i>
+                <span>FREE SHIPPING</span>
+                <p>on orders over £30*</p>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="header_detail free_return">
+             <i class="fas fa-undo"></i>
+            <span>FREE RETURNS</span>
+            <P>Terms and conditions apply*</P>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="header_detail custom_fitting">
+                <i class="fas fa-map-marker"></i>
+                <span>CUSTOM FITTING</span>
+                <P>+ personalisation service</P>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="header_detail customer_support">
+                <i class="fas fa-headset"></i>
+                <span>CUSTOMER SUPPORT</span>
+                <P>(Offices are closed today)</P>
+            </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+
+<!-- --------------------------------------  NAV BAR    --------------------------------------------- -->
+
+    <mat-grid-list class="nav_bar" cols="10" rowHeight="4:1">
+        <mat-grid-tile></mat-grid-tile>
+        <mat-grid-tile></mat-grid-tile>
+        <mat-grid-tile class="categories"><i class="fas fa-home"></i>
+            <b>HOME</b>
+        </mat-grid-tile>
+        <mat-grid-tile class="categories" (click)="handleClass(0)">
+            <b> DEPARTMENTS </b>
+                <i class="fas fa-chevron-down"></i>
+        </mat-grid-tile>
+        <mat-grid-tile class="categories"  (click)="handleClass(1)"><b>BRANDS</b><i class="fas fa-chevron-down"></i></mat-grid-tile>
+        <mat-grid-tile class="categories help"  (click)="handleClass(2)"><b>HELP</b><i class="fas fa-chevron-down"></i></mat-grid-tile>
+        <mat-grid-tile class="categories"  (click)="handleClass(3)"><b>19TH HOLE</b><i class="fas fa-chevron-down"></i></mat-grid-tile>
+        <mat-grid-tile class="categories"><b>BOOK A FITTING</b><i class="fas fa-chevron-down"></i></mat-grid-tile>
+        <mat-grid-tile></mat-grid-tile>
+        <mat-grid-tile class="btn"><button><B>CLEARANCE</B> <i class="fas fa-chevron-right"></i></button></mat-grid-tile>
+    </mat-grid-list>
+
+
+    <!-- -------------------------------- Department list  -------------------------------------------- -->
+    <div >
+        <mat-grid-list class="depart_list" [class.display]="classFlag[0]" cols="10" rowHeight="1:1">
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/driver21_cat.120x150.png.webp" alt="" srcset="">
+                    <p><b>CLUBS</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/nav_images_bags_21.120x150.png.webp" alt="" srcset="">
+                    <p><b>BAGS</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/nav_images_trolley_2.120x150.png.webp" alt="" srcset="">
+                    <p><b>TROLLEYS</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/nav_images_balls21.120x150.png.webp" alt="" srcset="">
+                    <p><b>BALLS</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/top_category_image_apparel16.120x150.png.webp" alt="" srcset="">
+                    <p><b>APEARELS</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/nav_images_accessories_21.120x150.png.webp" alt="" srcset="">
+                    <p><b>ACCESSORIES</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile class="dep_list_item">
+                <div>
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/nav_images_shoes_21.120x150.png.webp" alt="" srcset="">
+                    <p><b>SHOES</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/nav_images_glove_21.120x150.png.webp" alt="" srcset="">
+                    <p><b>GLOVES</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img class="dep_image" src="https://static.golfonline.co.uk/media/icons/nav_images_gifts_21.120x150.png.webp" alt="" srcset="">
+                    <p><b>GIFTS</b></p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div class="dep_list_item">
+                    <img src="https://static.golfonline.co.uk/media/icons/nav_images_gadgets_21.120x150.png.webp" alt="">
+                    <p><b>GADGETS</b></p>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+
+
+    <!-------------------------------  Brands list     -----------------------------------> 
+    <div class="brand_list"  [class.display]="classFlag[1]">
+        
+            <div>
+                <table class="image_table_of_brandlist">
+                <tr>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/taylormade_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/callaway1_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/titleist1_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/cobra_black_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/wilson_2020_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/adidas_logo_2019.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/nike_logo_2018.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/underarmour_logos.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/galvingreen16_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/puma_logo_2019.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/footjoy_logo.100x50.png.webp" alt="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/mizuno_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/motocaddy_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/ping_19_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/powakaddy_2020_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/bushnell_21_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/garmin_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                    <td>
+                        <img src="https://static.golfonline.co.uk/media/logos/golfbuddy_logo.100x50.png.webp" alt="" srcset="">
+                    </td>
+                </tr>
+            </table>
+            <table class="brands_table">
+                <tr>
+                    <td>
+                        <ul>
+                            <li>4 Yards More</li>
+                            <li>adidas</li>
+                            <li>Arccos</li>
+                            <li>AXIS1</li>
+                            <li> BagBoy</li>
+                            <li>Ben Sayers</li>
+                            <li>Bettinardi</li>
+                            <li>Big Max</li>
+                            <li>Bionic</li>
+                            <li>Brand Fusion</li>
+                            <li>Bridgestone Golf</li>
+                            <li>Bushnell Golf</li>
+                            <li>Callaway Golf</li>
+                            <li>Calvin Klein Golf</li>
+                            <li>CamelBak</li>
+                            <li>Champ Spikes</li>
+                            <li>Cleveland Golf</li>
+                            <li>Clicgear</li>
+                            <li>Cobra Golf</li>
+                            <li>Colin Montgomerie</li>
+                            <li>Cross Sportswear</li>
+                            <li>Daily Sports</li>
+                            <li>Daphnes</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Duca del Cosma</li>
+                            <li>Ecco</li>
+                            <li>EVNROLL Putters</li>
+                            <li>Eyeline Golf</li>
+                            <li>FastFold</li>
+                            <li>FatPlate</li>
+                            <li>FootJoy</li>
+                            <li>Galvin Green</li>
+                            <li>Garmin</li>
+                           <li> Glenmuir</li>
+                            <li>Golf Motion</li>
+                            <li>Golf Pride</li>
+                            <li>GolfBand</li>
+                            <li>GolfBuddy</li>
+                            <li>GolfOnline</li>
+                            <li>Green Lamb</li>
+                            <li>Greg Norman</li>
+                            <li>Hirzl</li>
+                            <li>Honma Golf</li>
+                            <li>Iomic</li>
+                            <li>Izzo Golf</li>
+                            <li>Lamkin</li>
+                            <li>Longridge</li>
+                            <li>Loudmouth</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>LP Support</li>
+                            <li>Luke Sport</li>
+                            <li>Lyle & Scott</li>
+                            <li>Lynx Golf</li>
+                            <li>MacGregor Golf</li>
+                            <li>Masters Golf</li>
+                            <li>Mizuno Golf</li>
+                            <li>Mkids Golf</li>
+                            <li>Motocaddy</li>
+                            <li>Navika Golf</li>
+                            <li>Nike Golf</li>
+                            <li>Oakley</li>
+                            <li>Odyssey</li>
+                            <li>Ogio Golf</li>
+                            <li>Original Penguin</li>
+                            <li>Originals</li>
+                            <li>Oscar Jacobson</li>
+                            <li>Other</li>
+                            <li>OUUL</li>
+                            <li>PGA Tour</li>
+                            <li>Ping</li>
+                            <li>Pinnacle</li>
+                            <li>PowaKaddy</li>
+                            <li>PowerBilt</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Pride GolfTee</li>
+                            <li>Proquip</li>
+                            <li>Puma Golf</li>
+                            <li>Pure Grips</li>
+                            <li>Pure2improve</li>
+                            <li>Regatta</li>
+                            <li>Samsung</li>
+                            <li>Scotty Cameron</li>
+                            <li>Second Chance</li>
+                            <li>Sesame Street</li>
+                            <li>Shot Scope</li>
+                            <li>Skechers Golf</li>
+                            <li>SkyCaddie</li>
+                            <li>Skymax</li>
+                            <li>SoftSpikes</li>
+                            <li>Solar Sport</li>
+                            <li>Solgar</li>
+                            <li>Srixon</li>
+                            <li>Stance</li>
+                            <li>Stromberg</li>
+                            <li>Stuburt</li>
+                            <li>Sun Mountain</li>
+                            <li>Sunderland Of Scotland</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li> Superfeet</li>
+                             <li>SuperStroke Grips</li>
+                             <li>SurprizeShop</li>
+                             <li>TaylorMade Golf</li>
+                             <li>The Grip Master</li>
+                             <li>The Simpsons</li>
+                             <li> Theragun</li>
+                             <li>Tin Cup</li>
+                             <li>Titleist</li>
+                             <li>Tommy Hilfiger</li>
+                             <li>TrueStrike</li>
+                             <li>Under Armour</li>
+                             <li>US Kids Golf</li>
+                             <li>Vega</li>
+                             <li>Voice Caddie</li>
+                             <li>Volvik</li>
+                             <li> Wilson</li>
+                             <li>Winn Grips</li>
+                             <li>Winning Edge</li>
+                             <li>XXiO Golf</li>
+                             <li>Zero Friction</li>
+                             <li>ZeroFit</li>
+                         </ul>
+                    </td>
+                </tr>
+            </table>
+            
+            
+    </div>
+</div>
+<!-- -------------------------       help list          ---------------------------- -->
+<div class="help_list"  [class.display]="classFlag[2]">
+    <ul>
+        <li>About GolfOnline</li>
+        <li>About GolfOnline</li>
+        <li>About GolfOnline</li>
+        <li>Gift Vouchers</li>
+        <li>Custom Fitting</li>
+        <li>Custom Logo Items</li>
+        <li>GolfOnline Members</li>
+        <li>Returns Information</li>
+        <li>Privacy and Security</li>
+        <li>GolfOnline FAQ's</li>
+        <li> Terms and Conditions</li>
+        <li>Careers</li>
+        <li>Contact Us</li>
+        <li>30-Day Try Me Guarantee</li>
+        <li>Our Environmental Policy</li>
+        <li>Brexit - All you need to know</li>
+
+    </ul>
+</div>
+<!-- -----------------------------     19th hole list            ------------------------------ -->
+
+<div class="hole_list" [class.display]="classFlag[3]">
+    <ul>
+        <li>News / Blog</li>
+        <li>Buying Guides</li>
+        <li>Videos</li>
+        <li>Tour Players</li>
+        <li>Golf Glossary</li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>YouTube</li>
+        <li>Instagram</li>
+        <li>Pinterest</li>
+    </ul>
+</div>
+
+

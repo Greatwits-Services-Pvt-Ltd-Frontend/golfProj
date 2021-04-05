@@ -1,0 +1,33 @@
+.footer_container{
+    .recent_history{
+        background: linear-gradient(rgb(223, 223, 236),white);
+        padding-top: 10%;
+        .leftrecent{
+            width: 50%;
+           .image_box_left{
+               background: white;
+               width: 15%;
+               height: 80px;
+               margin-left: 79%;
+               float: left;
+               .image_box_left_img{
+                   width: 100%;
+               }
+           }
+            
+        }
+        .rightrecent{
+            width: 50%;
+            float: right;
+            .image_box_right{
+                background: white;
+                width: 15%;
+                height: 80px;
+            }
+            .image_box_right_img{
+                width: 100%;
+            }
+        }
+
+    }
+}

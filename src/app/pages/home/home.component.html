@@ -1,0 +1,186 @@
+
+
+<div class="carousel">
+    <img class="carousel_image" src="https://static.golfonline.co.uk/version_539cc4fa-9798-44af-8/media/dimaslider/1/2/1920x450.jpg.webp" alt="" srcset="">
+</div>
+
+<!----------------------------------------- web app raiting div------------------------------------------- -->
+
+<div class="rating_review">
+    <h3>Rated 5 stars on</h3>
+    <p class="rating">★<img class="rating_image" src="../../../assets/trustpilot-vector-logo.jpg" alt="" srcset="">⋆⋆⋆⋆⋆</p>
+    <h3>Based on over 22,002 Reviews</h3>
+</div>
+
+<div class="items">
+    <mat-grid-list cols="10" rowHeight="1:1">
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/driver21_cat.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">CLUBS</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_bags_21.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">BAGS</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_trolley_2.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">TROLLEYS</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_balls21.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">BALLS</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/top_category_image_apparel16.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">APPARELS</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_accessories_21.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">ACCESSORIES</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_shoes_21.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">SHOES</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_glove_21.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">GLOVES</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_gifts_21.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">GIFTS</div>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="item_image">
+                <img class="item_img" src="https://static.golfonline.co.uk/media/icons/nav_images_gadgets_21.115x144.png.webp" alt="" srcset="">
+                <div class="image_decor">GADGETS</div>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<div class="advertise">
+    <mat-grid-list cols="4" rowHeight="1:1.5">
+        <mat-grid-tile>
+            <div class="advertiser_img">
+                <img class="advrt_pic" src="https://static.golfonline.co.uk/media/banners/titleist_4for3_pod.328x-.jpg.webp" alt="" srcset="">
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <div class="advertiser_img">
+                <img class="advrt_pic" src="https://static.golfonline.co.uk/media/banners/samsung_watch_pod.328x-.jpg.webp" alt="" srcset="">
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile rowHeight="1:1">
+            <div class="advertiser_img">
+                <img class="advrt_pic" src="https://static.golfonline.co.uk/media/banners/fj_premiere_series_2021.328x-.jpg.webp" alt="" srcset="">
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile rowHeight="1:1">
+            <div class="advertiser_img">
+                <span class="advert_img_one">
+                    <img class="advrt_pic_one" src="https://static.golfonline.co.uk/media/banners/afidas_zs21_pod.148x-.jpg.webp" alt="" srcset="">
+                </span>
+                <span class="advert_img_one">
+                    <img class="advrt_pic_one" src="https://static.golfonline.co.uk/media/banners/5by8_voucher_pod.148x-.jpg.webp" alt="" srcset="">
+                </span>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+
+<div class="recommended_products">
+    <div class="recomendation_title">
+        <h3><b>RECOMENDATIONS</b></h3>
+    </div>
+    <div class="recomendation_carousel">
+        <div *ngFor="let item of myproducts">
+                <div class="product">
+                    <div class="product_image">
+                        <img style="width: 100px;height: 100px;" src="https://static.golfonline.co.uk/media/img/lincoln_polo_blk.200x200.jpg.webp" alt="" srcset="">
+                    </div>
+                    <div class="product_detail">
+                        <p>{{item.title}}</p>
+                        <p><select name="doller" id="">
+                            <option value="CUSTOM BUILD">CUSTOM BUILD</option>
+                            <option value="CUSTOM BUILD">CUSTOM BUILD</option>
+                            <option value="CUSTOM BUILD">CUSTOM BUILD</option>
+                        </select></p>
+                        <p>details</p>
+                        <p>5647</p>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <p class="sale">SALE</p>
+                    </div>
+                </div>
+        </div>
+    
+    </div>
+
+</div>
+
+
+
+<div class="about_container">
+    <div class="about_golf_shop">
+        <h1><b>About our Golf Shop and the Equipment we supply...</b></h1>
+        <div class="left_about_golf_shop">
+            <p>
+                GolfOnline is made up of passionate golfers, web coders and retail specialists teaming-up with the world's leading golf manufacturers to offer our customers a world-class experience in golf equipment shopping. 
+            </p>
+            <br>
+            <p>
+                GolfOnline is made up of passionate golfers, web coders and retail specialists teaming-up with the world's leading golf manufacturers to offer our customers a world-class experience in golf equipment shopping. 
+            </p>
+            <br>
+            <p>
+                Located less than 10 miles from London, in a former BMW showroom, our flagship store is fully fitted with the latest golf simulator and custom fitting studio to offer Europe's largest range of golf products from a single pick-up point. 
+            </p>
+            <br>
+            <p>
+                As one of the biggest golf stockists our products are supplied and authorised directly from the top brands, complete with genuine manufacturer approved warranties and peace-of-mind guarantees. Our phenomenal range of products include high-performance golf clubs as well as intermediate and beginner-level equipment, encompassing everything in between to suit every golfer. We're basically fashion paired up with function both on and off the golf course! 
+            </p>
+            <br>
+            <p>
+                At GolfOnline we specialise in custom-fitted or custom-made golf clubs offering our expert custom fitting services to help ensure you buy the right equipment for your game. Known brands on tour like Callaway, Titleist, TaylorMade, Mizuno and Srixon - 
+            </p>
+        </div>
+
+    </div>
+
+    <div class="right_about_golf_shop">
+        <p>
+            are all available for customisation on our website along with live prices and delivery times. 
+        </p>
+        <br>
+        <p>
+            Featuring a massive online catalogue containing over 40,000 items of golf equipment in-stock, ranging from golf clubs, balls, bags, trolleys, gadgets through to the finest golf apparel, foot-wear, head-wear, eye-wear and much more. Plus we love to keep all our customers fully updated in-and-around the world of golf and you will find a great stream of the very latest golf equipment news, offers and content via our website and social media channels. 
+        </p>
+        <br>
+        <p>
+            We also offer personalisation services that are second to none, helping you leave your mark on the course. Choose from a huge selection of personalised golf balls, bags, tees, Footjoy MyJoys and many other golf products we can then mark with your name, company or society logo. 
+        </p>
+        <br>
+        <p>
+            Our motto - Going that Extra Yard! is what we live by and embodies everything we do at GolfOnline. Since 2000 we have serviced over 350,000 golfers across the world and are extremely thankful to all our customers who reward us with their wonderful feedback. As a result we have been rated as 5 Star Company within the Golf category on TrustPilot. Don't just take our word for it! Read what others are saying about us on TrustPilot.
+        </p>
+    </div>
+</div>

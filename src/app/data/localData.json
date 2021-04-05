@@ -1,0 +1,542 @@
+{
+    "products": [
+    { "id": 1,
+         "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+          "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+            "previous_price":"7890",
+            "currentdescount":"20%",
+            "current_price":"6345",
+            "product_image":"../shared/assets/product_banner-3.jpg"
+    },
+    { "id": 2,
+        "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+         "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+           "previous_price":"7890",
+           "currentdescount":"20%",
+           "current_price":"6345",
+           "product_image":"../shared/assets/product_banner-3.jpg"
+   },
+   { "id": 3,
+    "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+     "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+       "previous_price":"7890",
+       "currentdescount":"20%",
+       "current_price":"6345",
+       "product_image":"../shared/assets/product_banner-3.jpg"
+    },
+    { "id": 4,
+        "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+         "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+           "previous_price":"7890",
+           "currentdescount":"20%",
+           "current_price":"6345",
+           "product_image":"../shared/assets/product_banner-3.jpg"
+   } ,
+   { "id": 5,
+    "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+     "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+       "previous_price":"7890",
+       "currentdescount":"20%",
+       "current_price":"6345",
+       "product_image":"../shared/assets/product_banner-3.jpg"
+    },
+    { "id": 6,
+    "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+     "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+       "previous_price":"7890",
+       "currentdescount":"20%",
+       "current_price":"6345",
+       "product_image":"../shared/assets/product_banner-3.jpg"
+    },
+    { "id": 7,
+        "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+         "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+           "previous_price":"7890",
+           "currentdescount":"20%",
+           "current_price":"6345",
+           "product_image":"../shared/assets/product_banner-3.jpg"
+   },
+   
+   { "id": 8,
+    "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+     "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+       "previous_price":"7890",
+       "currentdescount":"20%",
+       "current_price":"6345",
+       "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 9,
+   "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+    "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+      "previous_price":"7890",
+      "currentdescount":"20%",
+      "current_price":"6345",
+      "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 10,
+"title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+"product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+  "previous_price":"7890",
+  "currentdescount":"20%",
+  "current_price":"6345",
+  "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 11,
+   "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+    "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+      "previous_price":"7890",
+      "currentdescount":"20%",
+      "current_price":"6345",
+      "product_image":"../shared/assets/product_banner-3.jpg"
+} ,
+{ "id": 12,
+"title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+"product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+  "previous_price":"7890",
+  "currentdescount":"20%",
+  "current_price":"6345",
+  "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 13,
+"title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+"product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+  "previous_price":"7890",
+  "currentdescount":"20%",
+  "current_price":"6345",
+  "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 14,
+   "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+    "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+      "previous_price":"7890",
+      "currentdescount":"20%",
+      "current_price":"6345",
+      "product_image":"../shared/assets/product_banner-3.jpg"
+},
+
+{ "id": 15,
+  "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+   "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+     "previous_price":"7890",
+     "currentdescount":"20%",
+     "current_price":"6345",
+     "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 16,
+ "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+  "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+    "previous_price":"7890",
+    "currentdescount":"20%",
+    "current_price":"6345",
+    "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 17,
+"title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+"product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+"previous_price":"7890",
+"currentdescount":"20%",
+"current_price":"6345",
+"product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 18,
+ "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+  "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+    "previous_price":"7890",
+    "currentdescount":"20%",
+    "current_price":"6345",
+    "product_image":"../shared/assets/product_banner-3.jpg"
+} ,
+{ "id": 19,
+"title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+"product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+"previous_price":"7890",
+"currentdescount":"20%",
+"current_price":"6345",
+"product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 20,
+"title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+"product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+"previous_price":"7890",
+"currentdescount":"20%",
+"current_price":"6345",
+"product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 21,
+ "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+  "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+    "previous_price":"7890",
+    "currentdescount":"20%",
+    "current_price":"6345",
+    "product_image":"../shared/assets/product_banner-3.jpg"
+},
+{ "id": 22,
+  "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+   "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+     "previous_price":"7890",
+     "currentdescount":"20%",
+     "current_price":"6345",
+     "product_image":"../shared/assets/product_banner-3.jpg"
+ },
+ { "id": 23,
+  "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+   "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+     "previous_price":"7890",
+     "currentdescount":"20%",
+     "current_price":"6345",
+     "product_image":"../shared/assets/product_banner-3.jpg"
+ },
+ { "id": 24,
+  "title": "Reviewing PGA Tour Windproof Double Canopy Umbrella",
+   "product_description": "Required product attributes are primarily defined by the products data specification. See the Products Data Specification Help Center article for information.",
+     "previous_price":"7890",
+     "currentdescount":"20%",
+     "current_price":"6345",
+     "product_image":"../shared/assets/product_banner-3.jpg"
+ }
+     
+ 
+       
+   
+            
+        ],
+    "categories_list": [
+      { "id": 1, "category_name": "APPARELS", "subcategories_list":[
+        {
+          "id":1,
+          "subcategory_name":"T-shirt"
+        },
+        {
+          "id":2,
+          "subcategory_name":"Headwear"
+        },
+        {
+          "id":3,
+          "subcategory_name":"Armsleeves"
+        },
+        {
+          "id":4,
+          "subcategory_name":"Trousers"
+        },
+        {
+          "id":5,
+          "subcategory_name":"Belts"
+        },
+        {
+          "id":6,
+          "subcategory_name":"Shorts"
+        },
+        {
+          "id":7,
+          "subcategory_name":"Juniors"
+        },
+        {
+          "id":8,
+          "subcategory_name":"Women"
+        },
+        {
+          "id":9,
+          "subcategory_name":"Winter wear"
+        }
+      ] },
+      {"id": 2, "category_name": "BALLS", "subcategories_list":[
+        {
+          "id":1,
+          "subcategory_name":"TitleIst"
+        }, 
+        {
+          "id":2,
+          "subcategory_name":"Callaway"
+        },
+        {
+          "id":3,
+          "subcategory_name":"Taylormade"
+        },
+        {
+          "id":4,
+          "subcategory_name":"Mizuno"
+        },
+        {
+          "id":5,
+          "subcategory_name":"Srixon"
+        },
+        {
+          "id":6,
+          "subcategory_name":"Pinnacle"
+        },
+        {
+          "id":7,
+          "subcategory_name":"Zero Friction"
+        },
+        {
+          "id":8,
+          "subcategory_name":"Wilso"
+        },
+        {
+          "id":9,
+          "subcategory_name":"Bridgestone"
+        },
+        {
+          "id":10,
+          "subcategory_name":"High visiblity Balls"
+        },
+        {
+          "id":11,
+          "subcategory_name":"Nearly new balls"
+        }
+      ]},
+      {"id": 3, "category_name": "CLUBS", "subcategories_list":[
+            {
+              "id":1,
+              "subcategory_name":"Callaway"
+            },
+            {
+              "id":2,
+              "subcategory_name":"TaylorMade"
+            },
+            {
+              "id":3,
+              "subcategory_name":"Ping"
+            },
+            {
+              "id":4,
+              "subcategory_name":"Mizu no"
+            },
+            {
+              "id":5,
+              "subcategory_name":"TitleIst"
+            },
+            {
+              "id":6,
+              "subcategory_name":"cobra"
+            },
+            {
+              "id":7,
+              "subcategory_name":"Wilson"
+            },
+            {
+              "id":8,
+              "subcategory_name":"Tour Edge"
+            },
+            {
+              "id":9,
+              "subcategory_name":"Cleveland"
+            },
+            {
+              "id":10,
+              "subcategory_name":"Srixon"
+            },
+            {
+              "id":11,
+              "subcategory_name":"MacGregor"
+            },
+            {
+              "id":12,
+              "subcategory_name":"Maruman"
+            },
+            {
+              "id":13,
+              "subcategory_name":"Lynx"
+            }
+          
+          
+           
+          ]
+      },
+      {"id": 4, "category_name": "SHOES", "subcategories_list":[
+            {
+              "id":1,
+              "subcategory_name":"Adidas"
+            },
+            {
+              "id":2,
+              "subcategory_name":"Under Armour"
+            },
+            {
+              "id":3,
+              "subcategory_name":"Foot Joy"
+            },
+            {
+              "id":4,
+              "subcategory_name":"Call away"
+            },
+            {
+              "id":5,
+              "subcategory_name":"ECCO"
+            },
+            {
+              "id":6,
+              "subcategory_name":"Mizuno"
+            },
+            {
+              "id":7,
+              "subcategory_name":"VG"
+            },
+            {
+              "id":8,
+              "subcategory_name":"Puma"
+            }
+          ]
+      },
+      {"id": 5, "category_name": "GLOVES", "subcategories_list":[
+        {
+          "id":1,
+          "subcategory_name":"FootJoy"
+        },
+        {
+          "id":2,
+          "subcategory_name":"Mizuno"
+        },
+        {
+          "id":3,
+          "subcategory_name":"TitleIst"
+        },
+        {
+          "id":4,
+          "subcategory_name":"Call away"
+        },
+        {
+          "id":5,
+          "subcategory_name":"Taylormade"
+        },
+        {
+          "id":6,
+          "subcategory_name":"VG"
+        },
+        {
+          "id":7,
+          "subcategory_name":"Srixon"
+        },
+        {
+          "id":8,
+          "subcategory_name":"Golf-Cear"
+        },
+        {
+          "id":9,
+          "subcategory_name":"Zero friction"
+        },
+        {
+          "id":10,
+          "subcategory_name":"Puma"
+        },
+        {
+          "id":8,
+          "subcategory_name":"Volvic"
+        },
+        {
+          "id":9,
+          "subcategory_name":"Wilson"
+        },
+        {
+          "id":10,
+          "subcategory_name":"Creative covers"
+        },
+        {
+          "id":11,
+          "subcategory_name":"Fit39"
+        }
+      ]},
+      {"id": 6, "category_name": "DAILY NEEDS", "subcategories_list":[
+            {
+              "id":1,
+              "subcategory_name":"Tees"
+            },
+            {
+              "id":2,
+              "subcategory_name":"Ball pouches and Holder"
+            },
+            {
+              "id":3,
+              "subcategory_name":"Hat clips and Markers"
+            },
+            {
+              "id":4,
+              "subcategory_name":"Cleaning and repair tools"
+            },
+            {
+              "id":5,
+              "subcategory_name":"On course Acessories"
+            },
+            {
+              "id":6,
+              "subcategory_name":"Technology"
+            },
+            {
+              "id":7,
+              "subcategory_name":"Head cover"
+            },
+            {
+              "id":8,
+              "subcategory_name":"Club Making"
+            },
+            {
+              "id":9,
+              "subcategory_name":"Towels"
+            },
+            {
+              "id":10,
+              "subcategory_name":"Umbrellas"
+            },
+            {
+              "id":11,
+              "subcategory_name":"Golf Gift"
+            },
+            {
+              "id":12,
+              "subcategory_name":"Performance Wearable"
+            }
+          ]
+        
+      },
+      {
+        "id": 7, "category_name": "GRIPS", "subcategories_list":[
+            {
+              "id":1,
+              "subcategory_name":"Golf Pride"
+            },
+            {
+              "id":2,
+              "subcategory_name":"Rose Mark"
+            },
+            {
+              "id":3,
+              "subcategory_name":"Super stroke"
+            }
+            
+          ]
+      }
+    
+    ],
+    "category":[{"categoryId":1,
+                      "category_name":"APPARELS",
+                      "sub_category":{"subcategoryId":1,
+                                      "subcategory_name":"Adidas",
+                                      "products":[
+                                        {"productId":1,
+                                          "name":" CG2000 Golf Set - 10Clubs ",
+                                          "brand":"MacGregor",
+                                          "quantity":"100",
+                                          "price":2000,
+                                          "description":"The MacGregor Men's CG2000 Golf Set is ideal for golfers of all levels, featuring 10clubs in total complete with a MacGregor Stand Bag. The entry-level CG2000 package set offers unrivalled value with men’s options of steel or graphite shafts in the irons and also a stand or cart bag option. This package set features a Ti-Matrix Driver, Fairway wood, Hybrid, Stainless steel Irons from (6-SW), Putter and Golf Bag."
+                                                    }
+                                                  ]
+                                      }
+                    },
+                    {"categoryId":2,
+                      "category_name":"BALLS",
+                      "sub_category":{"subcategoryId":1,
+                                      "subcategory_name":"Adidas",
+                                      "products":[
+                                        {"productId":1,
+                                          "name":" CG2000 Golf Set - 10Clubs ",
+                                          "brand":"MacGregor",
+                                          "quantity":"100",
+                                          "price":2000,
+                                          "description":"The MacGregor Men's CG2000 Golf Set is ideal for golfers of all levels, featuring 10clubs in total complete with a MacGregor Stand Bag. The entry-level CG2000 package set offers unrivalled value with men’s options of steel or graphite shafts in the irons and also a stand or cart bag option. This package set features a Ti-Matrix Driver, Fairway wood, Hybrid, Stainless steel Irons from (6-SW), Putter and Golf Bag."
+                                                    }
+                                                  ]
+                                      }
+                    }
+        
+                ]
+  }

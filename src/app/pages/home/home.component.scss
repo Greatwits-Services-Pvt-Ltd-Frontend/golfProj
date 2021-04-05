@@ -1,0 +1,116 @@
+.carousel_image{
+    height: 300px;
+    width: 100%;
+}
+
+.rating_review{
+    // position: relative;
+    text-align: center;
+    .rating{
+        font-size: 270%;
+        color: green;
+        .rating_image{
+            width: 10%;
+        }
+    }
+}
+.items{
+    padding: 0% 5%;
+    .item_image{
+        width: 90%;
+        height: 95%;
+        background: rgb(211, 208, 208);
+        border: gray solid 1px;
+        position: relative;
+        .item_img{
+            width: 100%;
+            height: 100%;
+        }
+        .image_decor{
+            position: absolute;
+            bottom: 0%;
+            background: rgba(0, 0, 0, 0.733);
+            color: blanchedalmond;
+            padding: 2%;
+            width: 97%;
+            text-align: center;
+        }
+    }
+}
+.advertise{
+    height: 400px;
+    padding: 2%;
+    .advertiser_img{
+        width: 90%;
+        margin: 5%;
+        box-shadow: gray 2px 3px 4px;
+        transition-duration: 500s;
+        .advrt_pic{
+            width: 100%;
+        }
+        .advrt_pic_one{
+            width: 50%;
+        }
+    }
+    .advertiser_img:hover{
+        width: 90%;
+        margin: 5%;
+        box-shadow: gray 6px 10px 15px;
+        .advrt_pic{
+            width: 100%;
+        }
+        .advrt_pic_one{
+            width: 50%;
+        }
+    }
+}
+
+
+.recommended_products{
+
+    .recomendation_title{
+        text-align: center;
+    }
+    .recomendation_carousel{
+        overflow: hidden;
+        .product{
+            margin: 2.5%;
+            width: 150px;
+            height: 300px;
+            float: left;
+            position: relative;
+            // .product_image{
+        
+            // }
+            .product_detail{
+                select{
+                    outline: none;
+                }
+                .sale{
+                    position: absolute;
+                    top: 1%;
+                    right: 1%;
+                    background: rgb(165, 8, 8);
+                    color: white;
+                    padding: 1%;
+                }
+            }
+        }
+    }
+}
+
+
+.about_container{
+    background: rgb(235, 234, 234);
+    padding: 5% 5% 7% 5%;
+    font-size: 115%;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 208%;
+    .about_golf_shop{
+        .left_about_golf_shop , .right_about_golf_shop{
+            float: left;
+            width: 50%;
+            margin: 0% 1%;
+        }
+    }
+}
